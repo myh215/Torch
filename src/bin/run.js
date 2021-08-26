@@ -2,7 +2,7 @@ import app from '../index'
 import http from 'http'
 import chalk from 'chalk'
 
-const port = process.env.PORT || 3000
+const port = process.env.PORT || 12235
 
 const bind = typeof port === 'string'
     ? 'Pipe ' + port
